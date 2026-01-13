@@ -1,6 +1,17 @@
 ---
-title: Welcome to Quartz
+title: Натурально система 5542
 ---
+---
+**Версия:** 1.0  
+**Дата:** 2026 янв 
+**Система:** Натуральная система 5542, 2 на 1 ФГ
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+---
+## ОГЛАВЛЕНИЕ
+
+[[0. О системе]]
+[[1. Открытие 1♣]]
+[[2. Открытие 1♦]]
+[[3. Открытие 1♥]]
+[[4. Открытие 1♠]]
+[[5. Открытие 1NT]]
