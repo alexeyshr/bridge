@@ -8,18 +8,20 @@ title: Натуральная система 5542
 
 ---
 ## ОГЛАВЛЕНИЕ
+<p style="font-weight: bold; color: #00b0f0; margin-top: 1em;">Открытия</p>
 
+<ul style="list-style-type: disc; padding-left: 40px;">
+</ul>
 
 - [[0. О системе]]
-<font color="#00b0f0"><font color="#00b0f0">Открытия</font></font>
 - [[1. Открытие 1♣]]
 - [[2. Открытие 1♦]]
 - [[3. Открытие 1♥]]
 - [[4. Открытие 1♠]]
 - [[5. Открытие 1NT]]
-<font color="#00b0f0">Шлемовая торговля</font>
-- в
-<font color="#00b0f0">Торговля в интервенции(входы)</font>
-<font color="#00b0f0">Специальные защиты</font>
-<font color="#00b0f0">Прочие договоренности</font>
-<font color="#00b0f0">Вист</font>
+<p style="font-weight: bold; color: #00b0f0; margin-top: 1em;">Шлемовая торговля</p>
+<p style="font-weight: bold; color: #00b0f0; margin-top: 1em;">Торговля в интервенции(входы)</p>
+<p style="font-weight: bold; color: #00b0f0; margin-top: 1em;">Специальные защиты</p>
+<p style="font-weight: bold; color: #00b0f0; margin-top: 1em;">Прочие договоренности</p>
+<p style="font-weight: bold; color: #00b0f0; margin-top: 1em;">Вист</p>
+
