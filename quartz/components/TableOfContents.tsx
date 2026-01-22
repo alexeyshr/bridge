@@ -31,13 +31,17 @@ export default ((opts?: Partial<Options>) => {
     }
 
     const id = `toc-${numTocs++}`
+    // На мобильных (когда displayClass содержит "mobile-only") сворачиваем по умолчанию
+    const isMobileOnly = displayClass?.includes("mobile-only")
+    const shouldCollapse = isMobileOnly || fileData.collapseToc
+    
     return (
       <div class={classNames(displayClass, "toc")}>
         <button
           type="button"
-          class={fileData.collapseToc ? "collapsed toc-header" : "toc-header"}
+          class={shouldCollapse ? "collapsed toc-header" : "toc-header"}
           aria-controls={id}
-          aria-expanded={!fileData.collapseToc}
+          aria-expanded={!shouldCollapse}
         >
           <h3>{i18n(cfg.locale).components.tableOfContents.title}</h3>
           <svg
@@ -57,7 +61,7 @@ export default ((opts?: Partial<Options>) => {
         </button>
         <OverflowList
           id={id}
-          class={fileData.collapseToc ? "collapsed toc-content" : "toc-content"}
+          class={shouldCollapse ? "collapsed toc-content" : "toc-content"}
         >
           {fileData.toc.map((tocEntry) => (
             <li key={tocEntry.slug} class={`depth-${tocEntry.depth}`}>
