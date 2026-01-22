@@ -15,6 +15,7 @@ const observer = new IntersectionObserver((entries) => {
 
 function toggleToc(this: HTMLElement) {
   this.classList.toggle("collapsed")
+  this.parentElement?.classList.toggle("collapsed")
   this.setAttribute(
     "aria-expanded",
     this.getAttribute("aria-expanded") === "true" ? "false" : "true",
@@ -28,7 +29,7 @@ function setupToc() {
   for (const toc of document.getElementsByClassName("toc")) {
     const button = toc.querySelector(".toc-header")
     const content = toc.querySelector(".toc-content")
-    if (!button || !content) return
+    if (!button || !content) continue
     button.addEventListener("click", toggleToc)
     window.addCleanup(() => button.removeEventListener("click", toggleToc))
   }

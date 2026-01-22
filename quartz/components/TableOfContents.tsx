@@ -34,9 +34,9 @@ export default ((opts?: Partial<Options>) => {
     // На мобильных (когда displayClass содержит "mobile-only") сворачиваем по умолчанию
     const isMobileOnly = displayClass?.includes("mobile-only")
     const shouldCollapse = isMobileOnly || fileData.collapseToc
-    
+
     return (
-      <div class={classNames(displayClass, "toc")}>
+      <div class={classNames(displayClass, "toc", shouldCollapse ? "collapsed" : "")}>
         <button
           type="button"
           class={shouldCollapse ? "collapsed toc-header" : "toc-header"}
@@ -59,10 +59,7 @@ export default ((opts?: Partial<Options>) => {
             <polyline points="6 9 12 15 18 9"></polyline>
           </svg>
         </button>
-        <OverflowList
-          id={id}
-          class={shouldCollapse ? "collapsed toc-content" : "toc-content"}
-        >
+        <OverflowList id={id} class={shouldCollapse ? "collapsed toc-content" : "toc-content"}>
           {fileData.toc.map((tocEntry) => (
             <li key={tocEntry.slug} class={`depth-${tocEntry.depth}`}>
               <a href={`#${tocEntry.slug}`} data-for={tocEntry.slug}>
@@ -78,12 +75,20 @@ export default ((opts?: Partial<Options>) => {
   TableOfContents.css = modernStyle
   TableOfContents.afterDOMLoaded = concatenateResources(script, overflowListAfterDOMLoaded)
 
-  const LegacyTableOfContents: QuartzComponent = ({ fileData, cfg }: QuartzComponentProps) => {
+  const LegacyTableOfContents: QuartzComponent = ({
+    fileData,
+    displayClass,
+    cfg,
+  }: QuartzComponentProps) => {
     if (!fileData.toc) {
       return null
     }
+
+    const isMobileOnly = displayClass?.includes("mobile-only")
+    const shouldCollapse = isMobileOnly || fileData.collapseToc
+
     return (
-      <details class="toc" open={!fileData.collapseToc}>
+      <details class={classNames(displayClass, "toc")} open={!shouldCollapse}>
         <summary>
           <h3>{i18n(cfg.locale).components.tableOfContents.title}</h3>
         </summary>

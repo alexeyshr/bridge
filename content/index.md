@@ -1,13 +1,17 @@
 ---
 title: Натуральная система 5542
 ---
+
 ---
+
 **Версия:** 1.0  
-**Дата:** 2026 янв 
+**Дата:** 2026 янв
 **Система:** Натуральная система 5542, 2 на 1 ФГ
 
 ---
+
 ## ОГЛАВЛЕНИЕ
+
 <p style="font-weight: bold; color: #00b0f0; margin-top: 1em;">Открытия</p>
 
 <ul style="list-style-type: disc; padding-left: 40px;">
@@ -24,4 +28,3 @@ title: Натуральная система 5542
 <p style="font-weight: bold; color: #00b0f0; margin-top: 1em;">Специальные защиты</p>
 <p style="font-weight: bold; color: #00b0f0; margin-top: 1em;">Прочие договоренности</p>
 <p style="font-weight: bold; color: #00b0f0; margin-top: 1em;">Вист</p>
-
