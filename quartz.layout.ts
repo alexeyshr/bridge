@@ -1,22 +1,5 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
-import { QuartzComponent, QuartzComponentProps } from "./quartz/components/types"
-
-// Wrapper для ToC на мобильных с collapsed по умолчанию
-const MobileCollapsedToc: QuartzComponent = (props: QuartzComponentProps) => {
-  const modifiedProps = {
-    ...props,
-    fileData: {
-      ...props.fileData,
-      collapseToc: true, // Форсируем collapsed для мобильных
-    },
-  }
-  return Component.TableOfContents()(modifiedProps)
-}
-
-// Копируем необходимые свойства из оригинального компонента
-MobileCollapsedToc.css = Component.TableOfContents().css
-MobileCollapsedToc.afterDOMLoaded = Component.TableOfContents().afterDOMLoaded
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
@@ -41,7 +24,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.ArticleTitle(),
     Component.ContentMeta(),
     Component.TagList(),
-    Component.MobileOnly(MobileCollapsedToc),
+    Component.MobileOnly(Component.TableOfContents()),
   ],
   left: [
     Component.PageTitle(),
