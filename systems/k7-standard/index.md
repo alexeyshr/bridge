@@ -15,6 +15,8 @@
 - [[battle-sheets/slam-tools-battle-sheet|Battle Sheet: шлемовые инструменты]]
 - [[battle-sheets/conventions-battle-sheet|Battle Sheet: ключевые конвенции]]
 - [[battle-sheets/rkcb-battle-sheet|Battle Sheet: RKCB и вопросы о тузах]]
+- [[battle-sheets/competitive-battle-sheet|Battle Sheet: competitive methods]]
+- [[battle-sheets/defense-battle-sheet|Battle Sheet: defense / wist]]
 
 
 ## Односторонняя торговля
