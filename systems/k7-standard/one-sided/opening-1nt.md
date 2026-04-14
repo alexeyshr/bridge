@@ -126,6 +126,14 @@
 
 Если контра раскладная, продолжаем как будто контры не было.
 
+## Микро-карточки по веткам 1БК
+
+- [[1nt-branches/stayman-and-smolen|Stayman и Smolen]]
+- [[1nt-branches/major-transfers|Мажорные трансферы]]
+- [[1nt-branches/minor-transfers|Минорные трансферы]]
+- [[1nt-branches/superaccepts|Суперприемы трансфера]]
+- [[1nt-branches/action-over-double|Действия после контры на 1БК]]
+
 ## Как не путаться в этом разделе
 
 ### Быстрый алгоритм

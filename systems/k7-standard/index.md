@@ -7,6 +7,14 @@
 - [[general-principles|Общие принципы и правила]]
 - [[opening-spectrum|Спектр открытий]]
 
+## Battle Sheets
+
+- [[battle-sheets/1nt-battle-sheet|Battle Sheet: 1БК]]
+- [[battle-sheets/minor-openings-battle-sheet|Battle Sheet: минорные открытия]]
+- [[battle-sheets/major-openings-battle-sheet|Battle Sheet: мажорные открытия]]
+- [[battle-sheets/slam-tools-battle-sheet|Battle Sheet: шлемовые инструменты]]
+
+
 ## Односторонняя торговля
 
 - [[one-sided/minor-openings-cheatsheet|Шпаргалка по минорным открытиям]]
@@ -18,6 +26,11 @@
   - [[one-sided/minor-branches/inverted-minors-after-1d|Инвертированные миноры после 1♦]]
 - [[one-sided/major-openings-cheatsheet|Шпаргалка по мажорным открытиям]]
 - [[one-sided/opening-1nt-cheatsheet|Шпаргалка по 1БК]]
+  - [[one-sided/1nt-branches/stayman-and-smolen|Stayman и Smolen]]
+  - [[one-sided/1nt-branches/major-transfers|Мажорные трансферы]]
+  - [[one-sided/1nt-branches/minor-transfers|Минорные трансферы]]
+  - [[one-sided/1nt-branches/superaccepts|Суперприемы трансфера]]
+  - [[one-sided/1nt-branches/action-over-double|Действия после контры на 1БК]]
 - [[one-sided/opening-1c|Открытие 1♣]]
 - [[one-sided/opening-1d|Открытие 1♦]]
 - [[one-sided/opening-1h|Открытие 1♥]]
