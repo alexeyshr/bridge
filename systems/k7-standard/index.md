@@ -9,6 +9,13 @@
 
 ## Односторонняя торговля
 
+- [[one-sided/minor-openings-cheatsheet|Шпаргалка по минорным открытиям]]
+  - [[one-sided/minor-branches/follows-after-1c-1h|После 1♣ – 1♥]]
+  - [[one-sided/minor-branches/follows-after-1c-1s|После 1♣ – 1♠]]
+  - [[one-sided/minor-branches/inverted-minors-after-1c|Инвертированные миноры после 1♣]]
+  - [[one-sided/minor-branches/follows-after-1d-1h|После 1♦ – 1♥]]
+  - [[one-sided/minor-branches/follows-after-1d-1s|После 1♦ – 1♠]]
+  - [[one-sided/minor-branches/inverted-minors-after-1d|Инвертированные миноры после 1♦]]
 - [[one-sided/major-openings-cheatsheet|Шпаргалка по мажорным открытиям]]
 - [[one-sided/opening-1nt-cheatsheet|Шпаргалка по 1БК]]
 - [[one-sided/opening-1c|Открытие 1♣]]
