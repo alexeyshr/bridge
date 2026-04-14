@@ -7,6 +7,16 @@
 - [[general-principles|Общие принципы и правила]]
 - [[opening-spectrum|Спектр открытий]]
 
+## Start Here
+
+- [[partner-card-k7|K7 Partner Card]]
+- [[reading-path-k7|Reading Path: K7-Стандарт]]
+- [[anti-mistakes/openings-anti-mistakes|Anti-mistakes: openings]]
+- [[anti-mistakes/1nt-anti-mistakes|Anti-mistakes: 1БК]]
+- [[anti-mistakes/competitive-anti-mistakes|Anti-mistakes: competitive]]
+- [[anti-mistakes/defense-anti-mistakes|Anti-mistakes: defense / wist]]
+
+
 ## Battle Sheets
 
 - [[battle-sheets/1nt-battle-sheet|Battle Sheet: 1БК]]
