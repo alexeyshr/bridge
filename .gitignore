@@ -1,5 +1,14 @@
 .DS_Store
 Thumbs.db
+
+# Obsidian local/transient state
 .obsidian/workspace*.json
+.obsidian/workspace.json
 .obsidian/cache/
+.obsidian/.trash/
 .obsidian/plugins/*/data.json
+
+# Local OS/editor files
+*.swp
+*.swo
+*~
