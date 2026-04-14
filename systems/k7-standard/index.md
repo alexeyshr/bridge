@@ -13,6 +13,8 @@
 - [[battle-sheets/minor-openings-battle-sheet|Battle Sheet: минорные открытия]]
 - [[battle-sheets/major-openings-battle-sheet|Battle Sheet: мажорные открытия]]
 - [[battle-sheets/slam-tools-battle-sheet|Battle Sheet: шлемовые инструменты]]
+- [[battle-sheets/conventions-battle-sheet|Battle Sheet: ключевые конвенции]]
+- [[battle-sheets/rkcb-battle-sheet|Battle Sheet: RKCB и вопросы о тузах]]
 
 
 ## Односторонняя торговля
